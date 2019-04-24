@@ -7,7 +7,7 @@ global.S3CR37 = 'S3CR37';
 
 const app = require('./config/server');
 
-const port = 5000;
+const port = 300;
 app.listen(port, function() {
     console.log('Server running at port: ', port);
 });
